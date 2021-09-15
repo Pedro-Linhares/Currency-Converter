@@ -2,23 +2,43 @@
 h1{
     text-align: center;
 }
+
 section{
     color: aliceblue;
     background-color: rgb(36, 186, 212);
     border-radius: 10pt;
     padding: 10pt;
     margin: auto;
-    height: 200pt;
+    height: 220pt;
     width: 300pt;
     box-shadow: 5pt 5pt 5pt rgba(0, 0, 0, 0.24);
-    text-align: center;
-    
+    text-align: center; 
+}
+
+ul{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    text-align: left;
+    margin-left: 15pt;
 }
 
 #price{
     text-align: left;
-
+    margin-left: 30pt;
 }
+
+#result{
+    font-size: larger;
+    padding: 15pt;
+    font-weight: bold;
+}
+
+footer{
+    font-size: small;
+    margin: 10pt;
+}
+
 
 
     

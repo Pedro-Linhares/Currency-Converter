@@ -12,16 +12,46 @@
     
 <section>
     <div id = "input">
-
-
+        <ul>
+            <li id="check">
+            <input type="radio" name = "currency" id="dollar" checked>
+            <label for="dollar">Dollar</label>
+            </li> 
+            <li id="check">
+            <input type="radio" name = "currency" id="euro">
+            <label for="euro">Euro</label>
+            </li>
+            <li id="check">
+            <input type="radio" name ="currency" id="yen">
+            <label for="yen">Yen</label>
+            </li>
+            <li><input type="radio" name="currency" id="peso">Peso
+            </li>
+            <li><input type="radio" name="currency" id="pound">Pound
+            </li>
+            <li>
+                <input type="radio" name="currency" id="yuan">Yuan
+            </li>
+            
+        </ul>
+       
+        
         <strong><p>Insert a value</p></strong>
-        <input type="number"  id="value"> 
+        <input type="number"  id="value" placeholder="Insert Value"> 
         <input type="submit" value="convert" onclick="Convert()">
-        <p id="price">US Dollar: R$5.24 to Brazilian Reais: $0.19</p>
+        <p id="price">
+
+        </p>
+
     </div>
-    <div id = "answer">
+    <div id = "result">
         
     </div>
+    <footer>
+        <p>
+            &#9786; Pedro-Linhares
+        </p>
+    </footer>
 </section>
     
 </body>
