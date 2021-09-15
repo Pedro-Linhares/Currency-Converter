@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+    font-size: larger;
+}
+
+section{
+    background-color: rgb(36, 186, 212);
+    width: 400pt;
+    height: 300pt;
+    margin: auto;
+    border-radius: 5pt;
+    padding: 5pt;
+    box-shadow: 5pt 5pt 10pt rgba(0, 0, 0, 0.24);
+    text-align: center;
+    color: white;
+
+}
+
+footer{
+    padding: 10pt;
+    text-align: center;
+    font-size: small;
+}
+
+p{
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 10pt;
+}
+#result{
+    font-size: 30pt;
+    margin: 50pt;
+}
