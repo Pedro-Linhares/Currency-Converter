@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(235, 27, 27);
+    
+}
+
+section{
+    background-color: white;
+    border-radius: 5pt;
+    margin: auto;
+    padding: 10pt;
+    height: 200pt;
+    height: auto;
+    width: 450pt;
+    box-shadow: 5pt 5pt 10pt rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+#field img{
+    max-height: 200pt;
+    max-width: 200pt;
+    
+}
+#field h3{
+    margin: 1pt;
+}
+
+.text-input{
+    height: 15pt;
+    text-align: center;
+}
+.submit-input{
+    background-color: rgb(235, 27, 27);
+    border-radius: 3pt;
+    border: 0;
+    height: 25pt;
+    width: 70pt;
+    color: white;
+}
